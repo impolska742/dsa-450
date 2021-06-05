@@ -39,6 +39,7 @@ pair<int, int> minMax(int arr[], int n) {
 	return make_pair(minimumElement, maximumElement);
 }
 
+
 int len(int n) {
 	int cnt = 0;
 	while (n) {
@@ -48,6 +49,5 @@ int len(int n) {
 
 	return cnt;
 }
-
 
 #endif
